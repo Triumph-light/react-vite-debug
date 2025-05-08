@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "shared/*": ["packages/_shared/*"],
+      "react/*": ["packages/_react/*"],
+      "react-dom/*": ["packages/_react-dom/*"],
+      "react-reconciler/*": ["packages/_react-reconciler/*"],
+      "react-dom-bindings/*": ["packages/_react-dom-bindings/*"],
+      "react-client/*": ["packages/_react-client/*"],
+      "scheduler/*": ["packages/_scheduler/*"]
+    }
+  }
+}
