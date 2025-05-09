@@ -32,7 +32,6 @@ pnpm add -D vite
   "type": "module",
   "scripts": {
     "dev": "vite dev"
-    // "build": "vite build"
   }
 }
 ```
@@ -158,6 +157,7 @@ flow-remove-types --pretty --out-dir packages/_react-scheduler packages/react-sc
 > 含有 forks 的文件夹，React 定义脚本 `yarn build` 中有做不同环境的编译处理，因此需要自行处理下
 
 - packages/react-reconciler/ReactFiberConfig.js
+  - 只需要关注浏览器 DOM 配置方法（client 环境）
 
 ```js
 // 使用以下代码进行覆盖
